@@ -7,3 +7,8 @@ while(count<5){
     count++;
 }
 //do while loop
+let value = 10;
+do{
+     console.log("value:",value);
+     value++;
+}while(value < 3);
