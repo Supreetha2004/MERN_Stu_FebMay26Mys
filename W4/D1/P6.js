@@ -10,7 +10,7 @@
 // }
 //  console.log("example result: ",example());
 
-// return in catch block and still not finally.
+// return in catch block and still not finally..
 function example1() {
     try {
         try {
