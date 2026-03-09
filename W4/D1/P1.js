@@ -11,7 +11,7 @@
 // }
 //  console.log("Program execution continues");
 
-//JSON Parsing error
+//JSON Parsing error.
 let jSONtext = "{json}";
 try{
     let data = JSON.parse(jSONtext);
