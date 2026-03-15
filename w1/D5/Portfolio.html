@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        .logo{
+            text-align: center;
+            justify-content: center;
+            color: red;
+            background-color: yellow;
+        }
+        .nav-links {
+            display: flex;
+            background-color: yellow;
+            justify-content: space-evenly;
+        }
+        body{
+            background-color: black;
+            color: pink;
+        }
+        .class{
+            background-color: mediumpurple;
+        }
+        #about{
+            background-color: aqua;
+        }
+        #skills{
+            background-color:silver;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#home" class="logo">Supreetha C.R</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#skills">skills</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- -->
+    <section id="home" class="hero">
+        <h1>Supreetha C.R</h1>
+        <img src="my photo.jpeg" alt="my photo" class="profile-img">
+        <p>Wed develpment and Data analyst <br>MERN Stack/DevOps</p>
+        <a href="#contact" class="cta-button">contact me</a>
+</section>
+
+<!-- About Section -->
+ <section id="about">
+       <h2>About Me</h2>
+       <article class="about">
+        <h3>Full stack Developer</h3>
+        <p>Experience in web dev and hosting.
+            Sepecialized in Finance-Domain projects.
+        </p>
+        <div class="tags">
+            <span class="tag">Backend:NodeJS</span>
+            <span class="tag">DB:Optamization</span>
+        </div>
+
+       </article>
+ </sectionid>
+ <!-- skills -->
+  <section id="skills">
+    <h3>My skills</h3>
+    <div class="skills-grid">
+        <div class="skill-card">
+            <h4>MERN Stack</h4>
+            <p>ReactJS,NodeJS,ExpressJS,MongoDB</p>
+        </div>
+<!-- Projects -->
+ <section id="projects">
+    <h3>My Projects</h3>
+    <div class="projects-container">
+        <div class="projects-content">
+            <h4>gola</h4>
+            <p>Main Project
+                Skin Cancer detection YOLOv8 and CNN Algorithum.
+                Enhancing CNN Model Accuracy for Skin Cancer Detection with Dataset Imbalance.
+                Skin cancer, Melanoma, Non-melanoma, CNN, Deep learning, AI, Dermoscopy, Image
+classification, Machine learning, Early detection, Transfer learning, Feature optimization.
+</p>
+            <a href="https://www.gola.com/" target="_blank">View</a>
+        </div>
+    </div>
+    <table>
+        <thead><tr>
+            <th>projects</th>
+            <th colspan="2">Technology</th>
+        </tr></thead>
+        <tbody>
+            <tr>
+                <td>AWS for hosting</td>
+                <td>MERN</td>
+                <td>Redis</td>
+            </tr>
+        </tbody>
+    </table>
+ </section>
+    </div>
+  </section>
+  <!-- Contact Me-->
+ <section id="contact">
+    <h3>Contact Me</h3>
+    <form class="contact-from">
+        <fieldset>
+            <legend>contact form </legend>
+            <div class="from-group">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="name" required>
+            
+            </div>
+        </fieldset>
+    </form>
+    <section id="contact">
+    <h3>Contact Me</h3>
+    <form class="contact-from">
+        <fieldset>
+            <legend>contact form </legend>
+            <div class="from-group">
+                <label for="name">Email</label>
+                <input type="text" name="name" id="email" placeholder="email" required>
+           </div>
+           <div class="from-group">
+            <select name="type">
+                <option value="fte">FTE</option>
+                <option value="Consultant"></option>
+            </select>
+           </div>
+        </fieldset>
+        <button type="submit" class="submit-btn">Send</button>
+        </form>
+    </section>
+</body>
+</html>
