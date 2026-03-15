@@ -70,7 +70,7 @@ signupForm.addEventListener("submit", function(event){
     message.style.color = "green";
 });
 
-// Clear message on input
+// Clear message on input.....
 signupEmail.addEventListener("input", () => message.textContent = "");
 signupPassword.addEventListener("input", () => message.textContent = "");
 signupConfirmPassword.addEventListener("input", () => message.textContent = "");
