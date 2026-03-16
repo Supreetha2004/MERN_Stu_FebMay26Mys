@@ -1,4 +1,4 @@
-const items = {
+const itemss = {
     item1:"labtop",
     item2:"server",
     item3:"cloudAPI"
