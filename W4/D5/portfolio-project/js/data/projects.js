@@ -1,4 +1,4 @@
-const projectsData= [
+const projectsDatas= [
   {
     id: 1,
     name: "Movie name",
