@@ -1,5 +1,5 @@
 
-const skillsData = [
+const skillsDatas = [
   {
     id: 1,
     name: "ReactJS",
