@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded",function(){
-    //Render skills
+    //Render skillss
     renderSkills();
     initModel();
     initcontactvalidation();
