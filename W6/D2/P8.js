@@ -1,9 +1,9 @@
-//Handling the error event in EvenEmitter
+//Handling the error event in EvenEmitter..
 const EventEmitter = require("events");
 
 const fileEmitter = new EventEmitter();
 //Register an error listener
-fileEmitter.on("error",function(errorMessage){
+fileEmitter.on("error",function(errorMessage) {
     console.log("Emitter handler error",errorMessage);
 });
 //normal event listner:happy scenario
