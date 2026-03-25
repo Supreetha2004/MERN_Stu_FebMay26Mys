@@ -1,4 +1,4 @@
-//Readin and writing files asyncronously with callbacks
+//Reading and writing files asyncronously with callbacks
 const fs  = require("fs");
 const path = require("path");
 const filepath = path.join(__dirname,"async-note.txt");
