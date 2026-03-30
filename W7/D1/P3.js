@@ -1,4 +1,4 @@
-//Handling different http methods in 
+//Handling different http methods in express
 const express = require("express");
 const app = express();
 app.get("/users",function(req,res){
