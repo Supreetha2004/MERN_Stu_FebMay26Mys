@@ -2,7 +2,13 @@
 const express = require("express");
 const app = express();
 app.get("/users",function(req,res){
-     res.send("Returning all users");
+     res.status(200).json([
+        {message:"success"},
+        {id:1,name:"rakesh"},
+        {id:1,name:"supree"},
+        {id:1,name:"manu"}
+     ]);
+    //res.send("Returning all users");
 });
 //to create
 app.post("/users",function(req,res){
