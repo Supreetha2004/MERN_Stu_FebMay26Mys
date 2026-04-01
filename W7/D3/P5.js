@@ -15,9 +15,11 @@ console.log("Header section:",tokenParts[0]);
 console.log("payload section:",tokenParts[1]);
 console.log("Signature section:",tokenParts[2]);
 console.log("jwt part count:",tokenParts.length);
+//const newSecretKey = "monkey123"
 try{
     //jwt.verify() checks trust,signature and expriration
     const verifiedPayload = jwt.verify(token,secretkey);
+   // const verifiedPayload = jwt.verify(token,newSecretKey);
     console.log("verified payload: ",verifiedPayload);
 }
 catch(error){
