@@ -71,3 +71,8 @@ app.listen(4000,function(){
 });
 //curl http://localhost:4000/me -H "Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInJvbGUiOiJ1c2VyIiwiZW1haWwiOiJjb3JyZWN0QGVtYWlsLmNvbSIsImlhdCI6MTc3NTAzNTQ3NSwiZXhwIjoxNzc1MDM5MDc1fQ.KmCF8bGCjbcVCwK7wK8bBKsGdnTESYJ64r1TFX5admQ"
 //curl http://localhost:4000/admin -H "Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsInJvbGUiOiJhZG1pbiIsImVtYWlsIjoiY29ycmVjdDFAZW1haWwuY29tIiwiaWF0IjoxNzc1MDM1NDc1LCJleHAiOjE3NzUwMzkwNzV9.xaaOnXxvaK55SAW3ahgYh4xZp88-T8ZQgUjV3otDHso"
+//importing
+//midlleware
+//split menas split the given input
+//try block means verify the tokenks and handled by the cath block error
+//JWT flow with login,refresh-style logic ans secure verification
