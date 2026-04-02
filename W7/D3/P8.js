@@ -129,3 +129,6 @@ app.get("/me",authenticateAccessToken,function(req,res){
 app.listen(4000,function(){
     console.log("JWT demo server running @ http://localhost:4000");
 });
+//curl -X POST http://localhost4000/refresh -H "Content-Type:application/json" -d "{\"refreshToken\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEwMSwiZW1haWwiOiJlbWFpbEBlbWFpbC5jb20iLCJpYXQiOjE3NzUxMTQ0NDQsImV4cCI6MTc3NTk3ODQ0NCwiaXNzIjoiand0LWV4YW1wbGUifQ.-IlrxOpmsOF6mGfqYo8k_oXT0_V5bSXxEMQWbDoAmcM\"}"
+
+//curl http://localhost:4000/me -H "Authorization:Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEwMSwiZW1haWwiOiJlbWFpbEBlbWFpbC5jb20iLCJyb2xlIjoibWVtYmVyIiwiaWF0IjoxNzc1MTEzOTQxLCJleHAiOjE3NzUxMTQ1NDEsImlzcyI6Imp3dC1leGFtcGxlIn0.-WGL160Z-E2VaQFkU_XCRoPvIJpwBA7x8kcu0J_3acU"
