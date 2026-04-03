@@ -43,3 +43,4 @@ app.get("/admin",requireRole("admin"),function(req,res){
 app.listen(4000, function () {
     console.log("Express-session demo server running @ http://localhost:4000");
 });
+//when excute the profile role should be user but when excute the admin role should be admin
