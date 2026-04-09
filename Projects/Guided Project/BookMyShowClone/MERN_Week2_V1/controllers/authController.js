@@ -1,7 +1,7 @@
 //User Login,profile fetch and logout of user functionlity created
 const jwt = require("jsonwebtoken");
 const users = require("../data/users");
-const CustomError = require(".../utils/CustomError");
+const CustomError = require("../utils/CustomError");
 const {JWT_SECRET} = require("../middleware/authMiddleware");
 function loginUser(req,res,next){
    try{
