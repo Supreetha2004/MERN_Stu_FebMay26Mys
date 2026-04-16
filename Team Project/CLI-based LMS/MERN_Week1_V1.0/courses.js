@@ -1,44 +1,47 @@
-const courses = [{
-    id:1,
-    title:"MERN stack",
-    instructor:"Rakesh",
-    category:"Programming",
-    level:"Beginner",
-    sataus:"True",
-    totalNumber:"3",
-    lessons:["React.js","Express.js","Node.js"],
-    
-},
-{
-    id:2,
-    title:"Node.js",
-    instructor:"Supreetha",
-    category:"Backend",
-    level:"Intermediate",
-    sataus:"False",
-    totalNumber:"4",
-    lessons:["Modules","Buffer","Events","File System"]
-},
-{
-    id:3,
-    title:"HTML & CSS",
-    instructor:"Sonika",
-    category:"Web Development",
-    level:"Beginner",
-    sataus:"True",
-    totalNumber:"4",
-    lessons:["HTML Tags","CSS Basics","Grid","Flexbox"]
-},
-{
-    id:4,
-    title:"Python",
-    instructor:"Srusti",
-    category:"Programming",
-    level:"Beginner",
-    sataus:"False",
-    totalNumber:"3",
-    lessons:["Syntax","Loops","Functions"]
-}
+const courses = [
+  {
+    id: 1,
+    title: "MERN stack",
+    instructor: "Rakesh",
+    category: "Programming",
+    level: "Beginner",
+    status: true,
+    totalNumber: 3,
+    lessons: ["React.js", "Express.js", "Node.js"]
+  },
+
+  {
+    id: 2,
+    title: "Node.js",
+    instructor: "Raju",
+    category: "Backend",
+    level: "Intermediate",
+    status: false,
+    totalNumber: 4,
+    lessons: ["Modules", "Buffer", "Events", "File System"]
+  },
+
+  {
+    id: 3,
+    title: "HTML & CSS",
+    instructor: "Supreetha",
+    category: "Web Development",
+    level: "Beginner",
+    status: true,
+    totalNumber: 4,
+    lessons: ["HTML Tags", "CSS Basics", "Grid", "Flexbox"]
+  },
+
+  {
+    id: 4,
+    title: "Python",
+    instructor: "Sanju",
+    category: "Programming",
+    level: "Beginner",
+    status: false,
+    totalNumber: 3,
+    lessons: ["Syntax", "Loops", "Functions"]
+  }
 ];
 
 module.exports = courses;
