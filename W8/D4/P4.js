@@ -1,0 +1,8 @@
+//OTP generation using Crypto built-in module of NodeJS
+const crypto = require('crypto');
+function generationOTP(length = 6){
+    return crypto.randomInt(0,10**length )
+    .toString()
+    .padStart(length,'0');
+}//000044
+console.log("OTP:",generationOTP());
