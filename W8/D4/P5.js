@@ -8,7 +8,7 @@ function generateOTP(userId){
             .toString();
     otpStore[userId] = {
         otp,
-        expiresAt:Date.now()+5000,
+        expiresAt:Date.now()-1000,
         attempts: 0
     };
     console.log("OTP:",otp);
@@ -29,5 +29,5 @@ generateOTP("user1");
 
 const userEnteredOtp = otpStore["user1"].otp;
 setTimeout(() => {
-    console.log(verifyOTP("user1","1234"));
+    console.log(verifyOTP("user1",userEnteredOtp));
 }, 10000);
