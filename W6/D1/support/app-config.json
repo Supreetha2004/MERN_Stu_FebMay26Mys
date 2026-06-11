@@ -1,0 +1,6 @@
+{
+    "appName":"MyFristApp",
+    "envirnoment":"dev",
+    "features":["billing","invoicegenration"]
+
+}
