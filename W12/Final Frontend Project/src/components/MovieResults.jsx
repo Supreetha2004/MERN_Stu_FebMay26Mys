@@ -1,0 +1,17 @@
+import { useState } from "react";
+export default function MovieResults(){
+    const [movies,setMovies] = useState([]);
+    return(
+        <section>
+            <h2>Search results</h2>
+            {movies.length === 0 ? <p>No Movies Found</p>: 
+            <ul>
+                {movies.map((movie)=>(<li key={movie}></li>))}
+            </ul>
+            }
+            <button onClick={()=>{
+               setMovies(["Inception","Dhurandar","xyz"]);
+            }}>Loading Movies</button>
+        </section>
+    )
+}
